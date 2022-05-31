@@ -11,4 +11,6 @@ Simple docker repo providing a build environment with:
 - curl
 
 Release naming is:
-`{NODE_MAJOR_VERSION}-{NPM_MAJOR_VERSION}`
+`{NODE_MAJOR_VERSION}-{NPM_MAJOR_VERSION}-{RELEASE}`
+
+The value of release is iterated on subsequent releases for the same node and npm versions.
